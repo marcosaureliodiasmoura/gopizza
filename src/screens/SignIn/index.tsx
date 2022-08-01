@@ -35,7 +35,9 @@ export function SignIn() {
   return (
     <Container>
 
-      <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+      <KeyboardAvoidingView 
+      // behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      >
         <Content>
 
           <Brand source={brandImg} />
